@@ -3,67 +3,110 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hospital Name - Your Trusted Healthcare Provider</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS stylesheet -->
+    <title>Your Courier Company</title>
+    <style>
+        /* Add your CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin: 0;
+        }
+
+        nav {
+            background-color: #444;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li:last-child {
+            margin-right: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .hero {
+            text-align: center;
+            padding: 50px 0;
+        }
+
+        .hero h2 {
+            font-size: 48px;
+            margin: 0;
+        }
+
+        .hero p {
+            font-size: 24px;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 15px 30px;
+            background-color: #333;
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+
+        .cta-button:hover {
+            background-color: #555;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>Welcome to Hospital Name</h1>
-        <p>Your Trusted Healthcare Provider</p>
-        <nav>
-            <ul>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#doctors">Our Doctors</a></li>
-                <li><a href="#contact">Contact Us</a></li>
-            </ul>
-        </nav>
+        <h1>Your Courier Company</h1>
     </header>
 
-    <section class="hero">
-        <h2>Compassionate Care, World-Class Service</h2>
-        <p>At Hospital Name, your health is our priority. We are committed to providing exceptional medical care and support.</p>
-        <a href="#contact" class="btn">Book an Appointment</a>
-    </section>
-
-    <section id="services" class="services">
-        <h2>Our Services</h2>
+    <nav>
         <ul>
-            <li>Emergency Medicine</li>
-            <li>Surgery</li>
-            <li>Cardiology</li>
-            <li>Pediatrics</li>
-            <li>Maternity</li>
-            <!-- Add more services as needed -->
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Contact</a></li>
         </ul>
-    </section>
+    </nav>
 
-    <section id="doctors" class="doctors">
-        <h2>Meet Our Doctors</h2>
-        <div class="doctor">
-            <img src="doctor1.jpg" alt="Doctor 1">
-            <h3>Dr. John Smith</h3>
-            <p>Cardiologist</p>
+    <div class="container">
+        <div class="hero">
+            <h2>Welcome to Your Courier Company</h2>
+            <p>Delivering your parcels with care and precision.</p>
+            <a href="#" class="cta-button">Get Started</a>
         </div>
-        <div class="doctor">
-            <img src="doctor2.jpg" alt="Doctor 2">
-            <h3>Dr. Jane Doe</h3>
-            <p>Pediatrician</p>
-        </div>
-        <!-- Add more doctors as needed -->
-    </section>
 
-    <section id="contact" class="contact">
-        <h2>Contact Us</h2>
-        <p>If you have any questions or need assistance, please don't hesitate to reach out to us.</p>
-        <address>
-            <p><strong>Address:</strong> 123 Main Street, City, State, Zip</p>
-            <p><strong>Phone:</strong> (123) 456-7890</p>
-            <p><strong>Email:</strong> info@hospitalname.com</p>
-        </address>
-    </section>
-
-    <footer>
-        <p>&copy; 2023 Hospital Name. All rights reserved.</p>
-    </footer>
+        <!-- Add more content here, such as service descriptions, pricing, contact information, etc. -->
+    </div>
 </body>
 </html>
