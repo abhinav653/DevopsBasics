@@ -3,47 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Travel Website</title>
+    <title>Hospital Name - Your Trusted Healthcare Provider</title>
     <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS stylesheet -->
 </head>
 <body>
     <header>
-        <h1>Welcome to Our Travel Adventures</h1>
+        <h1>Welcome to Hospital Name</h1>
+        <p>Your Trusted Healthcare Provider</p>
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="destinations.html">Destinations</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#doctors">Our Doctors</a></li>
+                <li><a href="#contact">Contact Us</a></li>
             </ul>
         </nav>
     </header>
 
     <section class="hero">
-        <h2>Explore the World with Us</h2>
-        <p>Discover amazing destinations and plan your next adventure.</p>
-        <a href="destinations.html" class="btn">Explore Destinations</a>
+        <h2>Compassionate Care, World-Class Service</h2>
+        <p>At Hospital Name, your health is our priority. We are committed to providing exceptional medical care and support.</p>
+        <a href="#contact" class="btn">Book an Appointment</a>
     </section>
 
-    <section class="featured-destinations">
-        <h2>Featured Destinations</h2>
-        <div class="destination">
-            <img src="destination1.jpg" alt="Destination 1">
-            <h3>Destination 1</h3>
-            <p>Explore the beauty of Destination 1.</p>
-            <a href="destination1.html" class="btn">Learn More</a>
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Emergency Medicine</li>
+            <li>Surgery</li>
+            <li>Cardiology</li>
+            <li>Pediatrics</li>
+            <li>Maternity</li>
+            <!-- Add more services as needed -->
+        </ul>
+    </section>
+
+    <section id="doctors" class="doctors">
+        <h2>Meet Our Doctors</h2>
+        <div class="doctor">
+            <img src="doctor1.jpg" alt="Doctor 1">
+            <h3>Dr. John Smith</h3>
+            <p>Cardiologist</p>
         </div>
-        <div class="destination">
-            <img src="destination2.jpg" alt="Destination 2">
-            <h3>Destination 2</h3>
-            <p>Experience the wonders of Destination 2.</p>
-            <a href="destination2.html" class="btn">Learn More</a>
+        <div class="doctor">
+            <img src="doctor2.jpg" alt="Doctor 2">
+            <h3>Dr. Jane Doe</h3>
+            <p>Pediatrician</p>
         </div>
-        <!-- Add more featured destinations as needed -->
+        <!-- Add more doctors as needed -->
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or need assistance, please don't hesitate to reach out to us.</p>
+        <address>
+            <p><strong>Address:</strong> 123 Main Street, City, State, Zip</p>
+            <p><strong>Phone:</strong> (123) 456-7890</p>
+            <p><strong>Email:</strong> info@hospitalname.com</p>
+        </address>
     </section>
 
     <footer>
-        <p>&copy; 2023 Travel Website. All rights reserved.</p>
+        <p>&copy; 2023 Hospital Name. All rights reserved.</p>
     </footer>
 </body>
 </html>
